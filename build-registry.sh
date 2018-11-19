@@ -12,7 +12,7 @@ download() {
 
   if [[ "${url}" == "null" ]];then
     echo "No Release of ${1} exists. Skipping.."
-  elif [ -z "${chart}" ]; then
+  elif [ -e "${chart}" ]; then
     echo "${1} is already present. Skipping.."
   else
     wget -q ${url}
