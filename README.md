@@ -1,4 +1,4 @@
-# Test catalog
+# Sample app catalog
 
 App Catalog for internal GS Test Purposes.
 
