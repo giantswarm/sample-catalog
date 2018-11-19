@@ -10,11 +10,8 @@ download() {
   url=$(curl -s https://api.github.com/repos/${1}/releases/latest | jq -r .assets[0].browser_download_url)
   chart=$(echo ${url} | tr "/" " " | awk '{print $NF}')
 
-  if [[ "${url}" == "null" ]];then
-    echo "No Release of ${1} exists. Skipping.."
-  elif [ -e "${chart}" ]; then
-    echo "${1} is already present. Skipping.."
-  else
+  # Check if release exists and not already present
+  if [ ! "${url}" == "null" ] && [ ! -e "${chart}" ];then
     wget -q ${url}
     echo "${chart}"
   fi
