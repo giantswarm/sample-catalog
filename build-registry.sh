@@ -41,5 +41,7 @@ IFS=$'\n'       # make newlines the only separator
 set -f          # disable globbing
 for i in $(cat < "${APPS}"); do
   chart=$(download $i)
-  publish ${chart}
+  if [ -z "${chart}" ]; then
+    publish ${chart}
+  fi
 done
