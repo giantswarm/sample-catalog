@@ -17,10 +17,8 @@ download() {
   fi
 }
 
-
 publish() {
   echo "Publishing ${1} to https://giantswarm.github.com/${REPONAME}"
-
 
   # NOTE: Creation time of all charts updated, since local existing charts take priority
   # Fix this, by deleting (old) checked out charts first
