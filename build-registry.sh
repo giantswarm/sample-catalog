@@ -4,15 +4,18 @@ set -eu
 
 REPONAME=$1
 PERSONAL_ACCESS_TOKEN=$2
+APPS="./APPS"
 
 download() {
   url=$(curl -s https://api.github.com/repos/${1}/releases/latest | jq -r .assets[0].browser_download_url)
+  chart=$(echo ${url} | tr "/" " " | awk '{print $NF}')
+
   if [[ "${url}" == "null" ]];then
     echo "No Release of ${1} exists. Skipping.."
+  elif [ -z "${chart}" ]; then
+    echo "${1} is already present. Skipping.."
   else
     wget -q ${url}
-    chart=$(echo ${url} | tr "/" " " | awk '{print $NF}')
-
     echo "${chart}"
   fi
 }
@@ -37,10 +40,9 @@ git config user.email "dev@giantswarm.io"
 git config user.name "Taylor Bot"
 git checkout -f master
 
-chart=$(download giantswarm/kubernetes-test-app)
-if [ -z "${chart}" ]; then
-  echo "Warning: No charts found"
-else
+IFS=$'\n'       # make newlines the only separator
+set -f          # disable globbing
+for i in $(cat < "${APPS}"); do
+  chart=$(download $i)
   publish ${chart}
-fi
-
+done
