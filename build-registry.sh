@@ -30,13 +30,14 @@ publish() {
 }
 
 # Set up git
-git config credential.helper 'cache --timeout=120'
+git config credential.helper 'cache --timeout=60'
 git config user.email "dev@giantswarm.io"
 git config user.name "Taylor Bot"
 git checkout -f master
 
-IFS=$'\n'       # make newlines the only separator
-set -f          # disable globbing
+# Download and publish for all specified APPS
+IFS=$'\n'
+set -f
 for i in $(cat < "${APPS}"); do
   chart=$(download $i)
   if [ ! -z "${chart}" ]; then
