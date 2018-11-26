@@ -42,14 +42,6 @@ setup_helm_client() {
     helm repo add "$REPONAME" "$HELM_REPO_URL"
 }
 
-
-setup_git() {
-    echo "Setting up git..."
-    git config credential.helper 'cache --timeout=60'
-    git config user.email "dev@giantswarm.io"
-    git config user.name "Taylor Bot"
-}
-
 download_latest_charts() {
   while IFS="" read -r app || [ -n "$app" ]
   do
@@ -58,7 +50,7 @@ download_latest_charts() {
 
       # Check if release exists and not already present
       if [ "${url}" == "null" ];then
-        echo "No GitHub release '$app' found!"
+        echo "No GitHub release of '$app' found!"
         exit 1
       elif [ -e "${chart}" ];then
         echo "${chart} already present, skipping!"
@@ -81,12 +73,10 @@ sync_repo() {
     if helm repo index --url "$repo_url" --merge "index.yaml" "sync"; then
         mv -f ./sync/* .
 
-        setup_git
-
         git add *.tgz
         git add index.yaml
 
-        git commit -m "Auto build ${REPONAME}"
+        git commit -m "Auto build ${REPONAME}" --author="Taylor Bot dev@giantswarm.io"
         git push -q https://${PERSONAL_ACCESS_TOKEN}@github.com/giantswarm/${REPONAME}.git master
     else
         log_error "Exiting because unable to update index. Not safe to push update."
