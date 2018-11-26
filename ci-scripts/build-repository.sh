@@ -76,7 +76,7 @@ sync_repo() {
         git add ./*.tgz
         git add index.yaml
 
-        git commit -m "Auto build ${REPONAME}" --author="Taylor Bot <dev@giantswarm.io>"
+        git -c user.name="Taylor Bot" -c user.email="dev@giantswarm.io" commit -m "Auto build: ${REPONAME}"
         git push -q "https://${PERSONAL_ACCESS_TOKEN}@github.com/giantswarm/${REPONAME}.git" master
     else
         log_error "Exiting because unable to update index. Not safe to push update."
