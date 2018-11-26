@@ -1,0 +1,37 @@
+version: 2
+jobs:
+  lint-scripts:
+    docker:
+      - image: koalaman/shellcheck-alpine
+    steps:
+      - checkout
+      - run:
+          name: lint scripts
+          command: shellcheck -x ./rebuild-repo.sh
+  sync:
+    machine: true
+    working_directory: /home/circleci/.go_workspace/src/github.com/giantswarm/sample-app
+    steps:
+    - checkout
+
+    - attach_workspace:
+        at: .
+
+    - run:
+        name: Fetch new app releases and rebuild helm chart repository
+        command: ./rebuild-repo.sh
+workflows:
+  version: 2
+  lint:
+    jobs:
+      - lint-scripts
+  sync:
+    triggers:
+      - schedule:
+          cron: "23,53 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - sync
