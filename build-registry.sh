@@ -19,8 +19,6 @@ main() {
         log_error "Not all charts could be downloaded!"
     fi
 
-    setup_git
-
     if ! sync_repo "$HELM_REPO_URL"; then
         log_error "Not all charts could be packaged and synced!"
     fi
@@ -44,7 +42,6 @@ setup_git() {
     git config credential.helper 'cache --timeout=60'
     git config user.email "dev@giantswarm.io"
     git config user.name "Taylor Bot"
-
 }
 
 download_latest_charts() {
@@ -69,37 +66,28 @@ download_latest_charts() {
 sync_repo() {
     local repo_url="${1?Specify repo url}"
 
+    if [ -d "sync" ]; then
+      echo "No new releases found. Terminating"
+      return 0
+    fi
+
     echo "Syncing repo..."
     if helm repo index --url "$repo_url" --merge "index.yaml" "sync"; then
         mv -f ./sync/* .
 
+        setup_git
+
         git add *.tgz
         git add index.yaml
 
-        git commit -m "Auto-commit ${repo_url}"
+        git commit -m "Auto build ${REPONAME}"
+        git push -q https://${PERSONAL_ACCESS_TOKEN}@github.com/giantswarm/${REPONAME}.git master
     else
         log_error "Exiting because unable to update index. Not safe to push update."
         exit 1
     fi
     return 0
 }
-
-
-
-# publish() {
-#   echo "Publishing ${1} to https://giantswarm.github.com/${REPONAME}"
-
-#   # NOTE: Creation time of all charts updated, since local existing charts take priority
-#   # Fix this, by deleting (old) checked out charts first
-#   helm repo index ./ --merge ./index.yaml --url https://giantswarm.github.com/${REPONAME}
-#   git add ./${1} ./index.yaml
-#   git commit -m "Auto-commit ${1}"
-#   git push -q https://${PERSONAL_ACCESS_TOKEN}@github.com/giantswarm/${REPONAME}.git master
-#   echo "Successfully pushed ${1} to giantswarm/${REPONAME}"
-# }
-
-# Set up git
-# git checkout -f master
 
 log_error() {
     printf '\e[31mERROR: %s\n\e[39m' "$1" >&2
