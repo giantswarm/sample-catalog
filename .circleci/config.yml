@@ -15,7 +15,7 @@ jobs:
 
     - run:
         name: Fetch new app releases and rebuild helm chart repository
-        command: ./build-repository.sh ${CIRCLE_PROJECT_REPONAME} ${PERSONAL_ACCESS_TOKEN}
+        command: ci-scripts/build-repository.sh ${CIRCLE_PROJECT_REPONAME} ${PERSONAL_ACCESS_TOKEN}
 
 workflows:
   version: 2
@@ -25,7 +25,7 @@ workflows:
   sync:
     triggers:
       - schedule:
-          cron: "23,53 * * * *"
+          cron: "27,57 * * * *"
           filters:
             branches:
               only:
