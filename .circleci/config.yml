@@ -7,19 +7,15 @@ jobs:
       - checkout
       - run:
           name: lint scripts
-          command: shellcheck -x ./rebuild-repo.sh
+          command: shellcheck -x ci-scripts/build-repository.sh
   sync:
     machine: true
-    working_directory: /home/circleci/.go_workspace/src/github.com/giantswarm/sample-app
     steps:
     - checkout
 
-    - attach_workspace:
-        at: .
-
     - run:
         name: Fetch new app releases and rebuild helm chart repository
-        command: ./rebuild-repo.sh
+        command: ./build-repository.sh
 
 workflows:
   version: 2
