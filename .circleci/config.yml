@@ -15,7 +15,7 @@ jobs:
 
     - run:
         name: Fetch new app releases and rebuild helm chart repository
-        command: ./build-repository.sh
+        command: ./build-repository.sh ${CIRCLE_PROJECT_REPONAME} ${PERSONAL_ACCESS_TOKEN}
 
 workflows:
   version: 2
