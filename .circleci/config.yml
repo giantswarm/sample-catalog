@@ -1,0 +1,34 @@
+version: 2
+jobs:
+  lint-scripts:
+    docker:
+      - image: koalaman/shellcheck-alpine
+    steps:
+      - checkout
+      - run:
+          name: lint scripts
+          command: shellcheck -x ci-scripts/build-repository.sh
+  sync:
+    machine: true
+    steps:
+    - checkout
+
+    - run:
+        name: Fetch new app releases and rebuild helm chart repository
+        command: ./build-repository.sh
+
+workflows:
+  version: 2
+  lint:
+    jobs:
+      - lint-scripts
+  sync:
+    triggers:
+      - schedule:
+          cron: "23,53 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - sync
