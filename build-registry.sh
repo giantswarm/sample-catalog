@@ -22,6 +22,12 @@ main() {
     if ! sync_repo "$HELM_REPO_URL"; then
         log_error "Not all charts could be packaged and synced!"
     fi
+
+    cleanup
+}
+
+cleanup() {
+  rm -rf sync linux-amd64 ${HELM_TARBALL}
 }
 
 setup_helm_client() {
