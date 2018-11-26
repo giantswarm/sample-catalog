@@ -20,6 +20,7 @@ jobs:
     - run:
         name: Fetch new app releases and rebuild helm chart repository
         command: ./rebuild-repo.sh
+
 workflows:
   version: 2
   lint:
