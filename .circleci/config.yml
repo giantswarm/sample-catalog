@@ -25,7 +25,7 @@ workflows:
   sync:
     triggers:
       - schedule:
-          cron: "27,57 * * * *"
+          cron: "06,36 * * * *"
           filters:
             branches:
               only:
