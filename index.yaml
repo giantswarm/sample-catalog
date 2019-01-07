@@ -3,6 +3,15 @@ entries:
   kubernetes-test-app-chart:
   - apiVersion: v1
     appVersion: v1.3.1
+    created: 2019-01-07T15:40:19.684502979Z
+    description: A Helm chart for a test app
+    digest: d1a9bb09169e597a62edaf9bed49600a2cfe9ecb8c46cdb69f1fd35351086737
+    name: kubernetes-test-app-chart
+    urls:
+    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v1
+    appVersion: v1.3.1
     created: 2019-01-07T15:10:18.942432604Z
     description: A Helm chart for a test app
     digest: 83dda01a1911e69dfc5f1abb00b159df2a22b538a3dc9ae713550acc9121fb13
@@ -55,4 +64,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.14.tgz
     version: 0.2.14
-generated: 2019-01-07T15:10:18.941479237Z
+generated: 2019-01-07T15:40:19.683645262Z
