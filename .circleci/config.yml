@@ -2,12 +2,12 @@ version: 2
 jobs:
   lint-scripts:
     docker:
-      - image: koalaman/shellcheck-alpine
+      - image: quay.io/giantswarm/shellcheck-alpine:v0.6.0
     steps:
       - checkout
       - run:
           name: lint scripts
-          command: shellcheck -x ci-scripts/build-repository.sh
+          command: shellcheck -x ci-scripts/*
   sync:
     machine: true
     steps:
