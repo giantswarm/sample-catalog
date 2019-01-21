@@ -21,28 +21,20 @@ Install an app from the sample-catalog:
 > helm install sample-catalog/kubernetes-test-app-chart
 ```
 
+# Setting up a new App-Catalog
+1. Create a new Repo on Github
+2. Run `helm repo index .` in the root directory and commit the resulting `index.yaml`.
+3. Enable GitHub Pages for the master branch.
+4. Add Taylor Bot with `write` permissions to the repository.
+5. Set up project on circleci.com and copy Environment Variables from
+   `giantswarm/sample-catalog`.
+5. Commit the `.circleci/config.yml` and `ci-scripts/package.sh` files from
+   `giantswarm/sample-catalog` and adjust to your needs.
+
 # Release process
-
-There are two possibilites to release apps within the app-catalog.
-
-## Push-based
-
-Each managed app defines the catalogs it pushes to. That results in a
-developer creating a GitHub release of the managed app and also pushing the
-chart archive to each app-catalog repository.
-
-**Pros:**
-- Fast release flow. Pushing to the charts to app-catalogs gets directly
-  triggered by an release of the managed app.
-
-**Cons:**
-- GitHub write permissions to the app-catalog repos needed for every managed app.
-- Decrentralized information, which managed app currently pushes to which catalog.
-
-
 ## Pull-based
 
-Each app-catalog defines the managed apps that it contains.
+The app-catalog defines the managed apps that it contains.
 The app-catalog queries the GitHub releases of the managed apps on regular bases
 and pulls newly released chart-archives into the app-catalog.
 
@@ -50,7 +42,7 @@ and pulls newly released chart-archives into the app-catalog.
 - Centralized information, which managed app currently pushes into which catalog.
 
 **Cons:**
-- Need for some kind of CI cron-job that queries available new releases of
+- Need for a CI cron-job that queries available new releases of
   managed apps.
 - Delays between releasing a managed app and making it available in
   the app-catalog.
