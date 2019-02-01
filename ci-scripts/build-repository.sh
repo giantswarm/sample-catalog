@@ -27,7 +27,7 @@ main() {
 }
 
 cleanup() {
-  rm -rf sync linux-amd64 ${HELM_TARBALL}
+    rm -rf sync linux-amd64 ${HELM_TARBALL}
 }
 
 setup_helm_client() {
@@ -43,20 +43,20 @@ setup_helm_client() {
 }
 
 download_latest_charts() {
-  while IFS="" read -r app || [ -n "${app}" ]
-  do
-      release_url=$(curl -s "https://api.github.com/repos/${app}/releases/latest" | jq -r .assets[0].browser_download_url)
-      chart=$(echo "${release_url}" | tr "/" " " | awk '{print $NF}')
+    while IFS="" read -r app || [ -n "${app}" ]
+    do
+        release_url=$(curl -s "https://api.github.com/repos/${app}/releases/latest" | jq -r .assets[0].browser_download_url)
+        chart=$(echo "${release_url}" | tr "/" " " | awk '{print $NF}')
 
       # Check if release exists and not already present
       if [ "${release_url}" == "null" ];then
-        echo "No GitHub release of '${app}' found!"
-        exit 1
+          echo "No GitHub release of '${app}' found!"
+          exit 1
       elif [ -e "${chart}" ];then
-        echo "${chart} already present, skipping!"
+          echo "${chart} already present, skipping!"
       else
-        echo "Downloading chart '${chart}'..."
-        wget -q -P sync "${release_url}"
+          echo "Downloading chart '${chart}'..."
+          wget -q -P sync "${release_url}"
       fi
   done < ${APPS_FILE}
 }
@@ -65,8 +65,8 @@ sync_repo() {
     local repo_url="${1?Specify repo url}"
 
     if [ ! -d "sync" ]; then
-      echo "No new releases found. Terminating"
-      return 0
+        echo "No new releases found. Terminating"
+        return 0
     fi
 
     echo "Syncing repo..."
