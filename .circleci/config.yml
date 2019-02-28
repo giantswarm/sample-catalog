@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  catalog-build: giantswarm/catalog-build@dev:master
+  catalog: giantswarm/catalog@dev:master
 
 jobs:
   lint-scripts:
@@ -17,7 +17,7 @@ jobs:
     steps:
     - checkout
 
-    - catalog-build/catalog-build:
+    - catalog/sync:
         reponame: $CIRCLE_PROJECT_REPONAME
         token: $PERSONAL_ACCESS_TOKEN
 
