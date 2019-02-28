@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  catalog: giantswarm/catalog@dev:master
+  catalog: giantswarm/catalog@0.0.1
 
 jobs:
   lint-scripts:
