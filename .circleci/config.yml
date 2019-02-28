@@ -1,4 +1,8 @@
-version: 2
+version: 2.1
+
+orbs:
+  catalog-build: giantswarm/catalog-build@dev:master
+
 jobs:
   lint-scripts:
     docker:
@@ -13,9 +17,9 @@ jobs:
     steps:
     - checkout
 
-    - run:
-        name: Fetch new app releases and rebuild helm chart repository
-        command: ci-scripts/build-repository.sh ${CIRCLE_PROJECT_REPONAME} ${PERSONAL_ACCESS_TOKEN}
+    - catalog-build/catalog-build:
+        reponame: $CIRCLE_PROJECT_REPONAME
+        token: $PERSONAL_ACCESS_TOKEN
 
 workflows:
   version: 2
