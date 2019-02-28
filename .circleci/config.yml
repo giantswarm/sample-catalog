@@ -26,6 +26,7 @@ workflows:
   lint:
     jobs:
       - lint-scripts
+      - sync
   sync:
     triggers:
       - schedule:
