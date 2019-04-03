@@ -100,4 +100,24 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.14.tgz
     version: 0.2.14
-generated: 2019-01-21T16:10:19.270080069Z
+  prometheus-chart:
+  - apiVersion: v1
+    appVersion: 2.4.3
+    created: 2019-04-03T13:10:26.373370033Z
+    description: Prometheus is a monitoring system and time series database.
+    digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
+    engine: gotpl
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: info@giantswarm.io
+      name: giantswarm
+    name: prometheus-chart
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    tillerVersion: '>=2.8.0'
+    urls:
+    - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
+    version: 0.0.1
+generated: 2019-04-03T13:10:26.370180988Z
