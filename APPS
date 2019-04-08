@@ -1,3 +1,4 @@
 giantswarm/kubernetes-test-app
 giantswarm/prometheus
 giantswarm/helm-elasticsearch
+giantswarm/helm-fluentd-elasticsearch
