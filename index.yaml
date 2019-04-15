@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  xss-attempt:
+    - apiVersion: v1
+    appVersion: 2.4.3
+    version: 0.0.1
+    created: 2019-04-15T10:00:00.000Z
+    description: This is a little security POC
+    digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
+    home: https://digi.ninja/blog/svg_xss.php
+    icon: https://raw.githubusercontent.com/digininja/svg_xss/master/xss.svg
+    name: xss-attempt
+    sources:
+    - https://github.com/digininja/svg_xss
+    tillerVersion: '>=2.8.0'
+    urls:
+    - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
   elasticsearch:
   - apiVersion: v1
     appVersion: 6.7.1
