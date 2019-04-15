@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   xss-attempt:
-    - apiVersion: v1
+  - apiVersion: v1
     appVersion: 2.4.3
     version: 0.0.1
     created: 2019-04-15T10:00:00.000Z
