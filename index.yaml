@@ -1,148 +1,148 @@
 apiVersion: v1
 entries:
   xss-attempt:
-  - apiVersion: v1
-    appVersion: 2.4.3
-    version: 0.0.1
-    created: 2019-04-15T10:00:00.000Z
-    description: This is a little security POC
-    digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
-    home: https://digi.ninja/blog/svg_xss.php
-    icon: https://raw.githubusercontent.com/digininja/svg_xss/master/xss.svg
-    name: xss-attempt
-    sources:
-    - https://github.com/digininja/svg_xss
-    tillerVersion: '>=2.8.0'
-    urls:
-    - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
+    - apiVersion: v1
+      appVersion: 2.4.3
+      version: 0.0.1
+      created: 2019-04-15T10:00:00.000Z
+      description: This is a little security POC
+      digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
+      home: https://digi.ninja/blog/svg_xss.php
+      icon: https://raw.githubusercontent.com/digininja/svg_xss/master/xss.svg
+      name: xss-attempt
+      sources:
+        - https://github.com/digininja/svg_xss
+      tillerVersion: '>=2.8.0'
+      urls:
+        - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
   elasticsearch:
-  - apiVersion: v1
-    appVersion: 6.7.1
-    created: 2019-04-08T22:10:28.211171418Z
-    description: A Helm chart for Elasticsearch -- testing
-    digest: 7cf472e9926c872f4837fddb82f22b953cfc479cc9f5465f66a0f3c561cfabaf
-    name: elasticsearch
-    urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-0.1.2.tgz
-    version: 0.1.2
+    - apiVersion: v1
+      appVersion: 6.7.1
+      created: 2019-04-08T22:10:28.211171418Z
+      description: A Helm chart for Elasticsearch -- testing
+      digest: 7cf472e9926c872f4837fddb82f22b953cfc479cc9f5465f66a0f3c561cfabaf
+      name: elasticsearch
+      urls:
+        - https://giantswarm.github.com/sample-catalog/elasticsearch-0.1.2.tgz
+      version: 0.1.2
   kubernetes-test-app-chart:
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2019-01-21T16:10:19.270449657Z
-    description: A Helm chart for a test app
-    digest: e56695e32b385605f2b3f2c2d0a54f47a79ddd0ff538bd1200167287f6784942
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.8.tgz
-    version: 0.6.8
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2019-01-21T10:40:18.765005127Z
-    description: A Helm chart for a test app
-    digest: 68668bb6ed3369fffbada35d84e296f55f13a742b9580fc433f001d482e4cd8e
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.7.tgz
-    version: 0.6.7
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2019-01-14T14:40:20.188676178Z
-    description: A Helm chart for a test app
-    digest: ff45cc85f4f79c9deb5c88e9d4dc4e45c47a5b182d1a5d8f172ce1198ffa61f2
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.4.tgz
-    version: 0.6.4
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2019-01-14T13:10:20.928863799Z
-    description: A Helm chart for a test app
-    digest: 5502b22fc450abb0d915a7c90e2004a0da4cca2577285ca3ecab80f6005aa4ff
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.3.tgz
-    version: 0.6.3
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2019-01-07T15:40:19.684502979Z
-    description: A Helm chart for a test app
-    digest: d1a9bb09169e597a62edaf9bed49600a2cfe9ecb8c46cdb69f1fd35351086737
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.2.tgz
-    version: 0.6.2
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2019-01-07T15:10:18.942432604Z
-    description: A Helm chart for a test app
-    digest: 83dda01a1911e69dfc5f1abb00b159df2a22b538a3dc9ae713550acc9121fb13
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.5.3.tgz
-    version: 0.5.3
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2018-12-21T15:40:19.321587764Z
-    description: A Helm chart for a test app
-    digest: 2df26f57be2f9e7252dac58ce3d093d5767494333e94c847b8b60b0adc30e0da
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2018-12-03T11:10:20.333088479Z
-    description: A Helm chart for a test app
-    digest: 036a019a753c932292430fe13ef9cd57ccfcc7ac41876483f87e471b1ba8fe34
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.18.tgz
-    version: 0.2.18
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2018-11-26T19:06:16.128869285Z
-    description: A Helm chart for a test app
-    digest: b93dd9a5d95557fd05c896fe59999ba003700b331083a92ec20b8ad39d0d5812
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.17.tgz
-    version: 0.2.17
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2018-11-26T15:26:50.53945157+01:00
-    description: A Helm chart for a test app
-    digest: ec1f0f04a82235c98ae2c1e7e3bbb0e01c34d2fe0b342d37b2a10fe1cbb68881
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.16.tgz
-    version: 0.2.16
-  - apiVersion: v1
-    appVersion: v1.3.1
-    created: 2018-11-26T15:26:50.539235969+01:00
-    description: A Helm chart for a test app
-    digest: e74427e800a656827fc0cb92367216c95b24d6664583a76eb2fbebadbceb1e19
-    name: kubernetes-test-app-chart
-    urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.14.tgz
-    version: 0.2.14
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2019-01-21T16:10:19.270449657Z
+      description: A Helm chart for a test app
+      digest: e56695e32b385605f2b3f2c2d0a54f47a79ddd0ff538bd1200167287f6784942
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.8.tgz
+      version: 0.6.8
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2019-01-21T10:40:18.765005127Z
+      description: A Helm chart for a test app
+      digest: 68668bb6ed3369fffbada35d84e296f55f13a742b9580fc433f001d482e4cd8e
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.7.tgz
+      version: 0.6.7
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2019-01-14T14:40:20.188676178Z
+      description: A Helm chart for a test app
+      digest: ff45cc85f4f79c9deb5c88e9d4dc4e45c47a5b182d1a5d8f172ce1198ffa61f2
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.4.tgz
+      version: 0.6.4
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2019-01-14T13:10:20.928863799Z
+      description: A Helm chart for a test app
+      digest: 5502b22fc450abb0d915a7c90e2004a0da4cca2577285ca3ecab80f6005aa4ff
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.3.tgz
+      version: 0.6.3
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2019-01-07T15:40:19.684502979Z
+      description: A Helm chart for a test app
+      digest: d1a9bb09169e597a62edaf9bed49600a2cfe9ecb8c46cdb69f1fd35351086737
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.2.tgz
+      version: 0.6.2
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2019-01-07T15:10:18.942432604Z
+      description: A Helm chart for a test app
+      digest: 83dda01a1911e69dfc5f1abb00b159df2a22b538a3dc9ae713550acc9121fb13
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.5.3.tgz
+      version: 0.5.3
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2018-12-21T15:40:19.321587764Z
+      description: A Helm chart for a test app
+      digest: 2df26f57be2f9e7252dac58ce3d093d5767494333e94c847b8b60b0adc30e0da
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.3.0.tgz
+      version: 0.3.0
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2018-12-03T11:10:20.333088479Z
+      description: A Helm chart for a test app
+      digest: 036a019a753c932292430fe13ef9cd57ccfcc7ac41876483f87e471b1ba8fe34
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.18.tgz
+      version: 0.2.18
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2018-11-26T19:06:16.128869285Z
+      description: A Helm chart for a test app
+      digest: b93dd9a5d95557fd05c896fe59999ba003700b331083a92ec20b8ad39d0d5812
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.17.tgz
+      version: 0.2.17
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2018-11-26T15:26:50.53945157+01:00
+      description: A Helm chart for a test app
+      digest: ec1f0f04a82235c98ae2c1e7e3bbb0e01c34d2fe0b342d37b2a10fe1cbb68881
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.16.tgz
+      version: 0.2.16
+    - apiVersion: v1
+      appVersion: v1.3.1
+      created: 2018-11-26T15:26:50.539235969+01:00
+      description: A Helm chart for a test app
+      digest: e74427e800a656827fc0cb92367216c95b24d6664583a76eb2fbebadbceb1e19
+      name: kubernetes-test-app-chart
+      urls:
+        - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.14.tgz
+      version: 0.2.14
   prometheus-chart:
-  - apiVersion: v1
-    appVersion: 2.4.3
-    created: 2019-04-03T13:10:26.373370033Z
-    description: Prometheus is a monitoring system and time series database.
-    digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
-    engine: gotpl
-    home: https://prometheus.io/
-    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
-    maintainers:
-    - email: info@giantswarm.io
-      name: giantswarm
-    name: prometheus-chart
-    sources:
-    - https://github.com/prometheus/alertmanager
-    - https://github.com/prometheus/prometheus
-    tillerVersion: '>=2.8.0'
-    urls:
-    - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
-    version: 0.0.1
+    - apiVersion: v1
+      appVersion: 2.4.3
+      created: 2019-04-03T13:10:26.373370033Z
+      description: Prometheus is a monitoring system and time series database.
+      digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
+      engine: gotpl
+      home: https://prometheus.io/
+      icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+      maintainers:
+        - email: info@giantswarm.io
+          name: giantswarm
+      name: prometheus-chart
+      sources:
+        - https://github.com/prometheus/alertmanager
+        - https://github.com/prometheus/prometheus
+      tillerVersion: '>=2.8.0'
+      urls:
+        - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
+      version: 0.0.1
 generated: 2019-04-08T22:10:28.210405473Z
