@@ -20,6 +20,16 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.1.2.tgz
     version: 0.1.2
+  kibana:
+  - apiVersion: v1
+    appVersion: 6.7.1
+    created: 2019-04-16T13:10:27.245057761Z
+    description: A Helm chart for Kibana -- testing
+    digest: 13dbd88ad82eb8949e5be1d5bf7bafa1c528d39494f30de44a8312ea8a967d77
+    name: kibana
+    urls:
+    - https://giantswarm.github.com/sample-catalog/kibana-0.1.2.tgz
+    version: 0.1.2
   kubernetes-test-app-chart:
   - apiVersion: v1
     appVersion: v1.3.1
@@ -155,4 +165,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: 2019-04-16T12:40:27.749542246Z
+generated: 2019-04-16T13:10:27.244220152Z
