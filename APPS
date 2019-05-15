@@ -4,3 +4,4 @@ giantswarm/helm-elasticsearch
 giantswarm/helm-fluentd-elasticsearch
 giantswarm/helm-kibana
 giantswarm/kubernetes-elastic-stack
+giantswarm/helm-keycloak-gatekeeper
