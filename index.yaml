@@ -56,6 +56,16 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/elasticsearch-0.1.2.tgz
     version: 0.1.2
+  elasticsearch-exporter:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: 2019-05-29T11:10:31.320234518Z
+    description: Elasticsearch stats exporter for Prometheus
+    digest: c225a1e10c4d1635389fac75a19cda83a44d83c36befbf9f94b150db3786f29c
+    name: elasticsearch-exporter
+    urls:
+    - https://giantswarm.github.com/sample-catalog/elasticsearch-exporter-0.1.0.tgz
+    version: 0.1.0
   fluentd-elasticsearch:
   - apiVersion: v1
     appVersion: 2.5.1
@@ -279,4 +289,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: 2019-05-15T13:40:36.657376918Z
+generated: 2019-05-29T11:10:31.319688432Z
