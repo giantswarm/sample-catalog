@@ -3,6 +3,15 @@ entries:
   elastic-logging:
   - apiVersion: v1
     appVersion: 6.7.1
+    created: 2019-05-29T13:10:43.202651622Z
+    description: Logging stack with Elasticsearch, fluentd and Kibana
+    digest: 987b2e7fe00a71ef140c308b6be2c11469a94923d1f185380f9262cfae9ea97f
+    name: elastic-logging
+    urls:
+    - https://giantswarm.github.com/sample-catalog/elastic-logging-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: 6.7.1
     created: 2019-05-10T03:10:32.583741429Z
     description: Logging stack with Elasticsearch, fluentd and Kibana -- testing
     digest: 473e326d2cb8a4fea3c85fd28dc2e9e4fda9e9e9a91d843ded1426eeb3f02368
@@ -289,4 +298,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: 2019-05-29T11:10:31.319688432Z
+generated: 2019-05-29T13:10:43.19903151Z
