@@ -1,27 +1,23 @@
-version: 2
+version: 2.1
+
+orbs:
+  catalog: giantswarm/catalog@0.0.1
+
 jobs:
-  lint-scripts:
-    docker:
-      - image: quay.io/giantswarm/shellcheck-alpine:v0.6.0
-    steps:
-      - checkout
-      - run:
-          name: lint scripts
-          command: shellcheck -x ci-scripts/*
   sync:
     machine: true
     steps:
     - checkout
 
-    - run:
-        name: Fetch new app releases and rebuild helm chart repository
-        command: ci-scripts/build-repository.sh ${CIRCLE_PROJECT_REPONAME} ${PERSONAL_ACCESS_TOKEN}
+    - catalog/sync:
+        reponame: $CIRCLE_PROJECT_REPONAME
+        token: $PERSONAL_ACCESS_TOKEN
 
 workflows:
   version: 2
   lint:
     jobs:
-      - lint-scripts
+      - sync
   sync:
     triggers:
       - schedule:
