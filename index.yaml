@@ -40,6 +40,15 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 6.7.1
+    created: 2019-06-25T10:10:32.720226706Z
+    description: A Helm chart for Elasticsearch -- Testing Open Distro
+    digest: e687e5c31149648ceb65881d705fdaed4a12bb3388e4c8ff9653e2fc539f009b
+    name: elasticsearch
+    urls:
+    - https://giantswarm.github.com/sample-catalog/elasticsearch-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    appVersion: 6.7.1
     created: 2019-04-29T21:10:33.403862845Z
     description: A Helm chart for Elasticsearch -- Testing Open Distro
     digest: 2b3dcdd4957062c7d7ef68b2e315193df9894e569ae0f149fb3c75443ccbe561
@@ -78,6 +87,15 @@ entries:
   fluentd-elasticsearch:
   - apiVersion: v1
     appVersion: 2.5.1
+    created: 2019-06-25T10:10:32.721393786Z
+    description: A Helm chart for fluentd-elasticsearch -- testing
+    digest: e28dfe5ab5e7e209e30051ff13dab1a24df3722390d32f15c3ead3ecf33d4a17
+    name: fluentd-elasticsearch
+    urls:
+    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: 2.5.1
     created: 2019-04-28T15:40:33.330244652Z
     description: A Helm chart for fluentd-elasticsearch -- testing
     digest: eb02d25a4bd38b3eff11b307c2f4a0af6cce7691c38e1624a5adf18d9a48d019
@@ -95,6 +113,26 @@ entries:
     - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.1.2.tgz
     version: 0.1.2
   keycloak-gatekeeper:
+  - apiVersion: v1
+    appVersion: 4.6.0.Final
+    created: 2019-06-25T10:10:32.722492735Z
+    description: Keycloak gatekeeper
+    digest: 00c9a6ed875560c96d150a9fdd157deac14fe7a47d7b42c1435585147b26bf1f
+    engine: gotpl
+    home: https://github.com/keycloak/keycloak-gatekeeper
+    icon: https://raw.githubusercontent.com/keycloak/keycloak-misc/master/logo/keycloak_logo_600px.png
+    keywords:
+    - authentication
+    - authorization
+    - keycloak
+    - proxy
+    maintainers:
+    - email: gabibbo97@gmail.com
+      name: gabibbo97
+    name: keycloak-gatekeeper
+    urls:
+    - https://giantswarm.github.com/sample-catalog/keycloak-gatekeeper-1.1.1-3.tgz
+    version: 1.1.1-3
   - apiVersion: v1
     appVersion: 4.6.0.Final
     created: 2019-05-15T13:40:36.658041038Z
@@ -163,6 +201,16 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/kibana-0.1.2.tgz
     version: 0.1.2
+  kubernetes-elastic-stack-elastic-logging:
+  - apiVersion: v1
+    appVersion: 6.7.1
+    created: 2019-06-25T10:10:32.725879543Z
+    description: Logging stack with Elasticsearch, fluentd and Kibana
+    digest: fbf89f13697a1856244fb6814a93eeec63c03d1d1cd37e1b77cd90d00b04e960
+    name: kubernetes-elastic-stack-elastic-logging
+    urls:
+    - https://giantswarm.github.com/sample-catalog/kubernetes-elastic-stack-elastic-logging-0.1.8.tgz
+    version: 0.1.8
   kubernetes-test-app-chart:
   - apiVersion: v1
     appVersion: v1.3.1
@@ -298,4 +346,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: 2019-05-29T13:10:43.19903151Z
+generated: 2019-06-25T10:10:32.719771351Z
