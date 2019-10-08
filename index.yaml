@@ -86,6 +86,15 @@ entries:
     version: 0.1.0
   fluentd-elasticsearch:
   - apiVersion: v1
+    appVersion: 2.7.0
+    created: 2019-10-08T11:22:34.373344566Z
+    description: A Helm chart for fluentd-elasticsearch -- testing
+    digest: 22a4b4e9ead3291a084b7f973d202e682a3818537180cf82f7d4d017b2a0a4d8
+    name: fluentd-elasticsearch
+    urls:
+    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
     appVersion: 2.5.1
     created: 2019-06-25T10:10:32.721393786Z
     description: A Helm chart for fluentd-elasticsearch -- testing
@@ -346,4 +355,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: 2019-06-25T10:10:32.719771351Z
+generated: 2019-10-08T11:22:34.37196209Z
