@@ -95,6 +95,28 @@ entries:
   elasticsearch-curator:
   - apiVersion: v1
     appVersion: 5.5.4
+    created: 2019-10-10T15:01:42.141592063Z
+    description: A Helm chart for Elasticsearch Curator
+    digest: ff0c8a31c00a6ffacfb0cccd4804e5fe23bf73522300e9283527a82d41f26c05
+    home: https://github.com/elastic/curator
+    keywords:
+    - curator
+    - elasticsearch
+    - elasticsearch-curator
+    maintainers:
+    - email: cedric.dsm@gmail.com
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    name: elasticsearch-curator
+    sources:
+    - https://github.com/kubernetes/charts/elasticsearch-curator
+    - https://github.com/pires/docker-elasticsearch-curator
+    urls:
+    - https://giantswarm.github.com/sample-catalog/elasticsearch-curator-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v1
+    appVersion: 5.5.4
     created: 2019-10-10T06:40:22.089211911Z
     description: A Helm chart for Elasticsearch Curator
     digest: ca907c2d3d54caf992f800b2ffc20232928ade51d6d9d162fe314e31d71930f0
@@ -432,4 +454,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: 2019-10-10T13:10:23.386579086Z
+generated: 2019-10-10T15:01:42.140851311Z
