@@ -6,3 +6,4 @@ giantswarm/helm-kibana
 giantswarm/kubernetes-elastic-stack
 giantswarm/helm-keycloak-gatekeeper
 giantswarm/helm-elasticsearch-exporter
+giantswarm/helm-elasticsearch-curator
