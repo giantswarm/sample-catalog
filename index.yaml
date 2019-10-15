@@ -311,6 +311,15 @@ entries:
     version: 0.1.2
   kubernetes-elastic-stack-elastic-logging:
   - apiVersion: v1
+    appVersion: 7.4.0
+    created: 2019-10-15T09:48:27.366327298Z
+    description: Logging stack with Elasticsearch, fluentd and Kibana
+    digest: df39e86fc04dd3a34ee529058664aa8933e0074242ccd7e89853576563c43f57
+    name: kubernetes-elastic-stack-elastic-logging
+    urls:
+    - https://giantswarm.github.com/sample-catalog/kubernetes-elastic-stack-elastic-logging-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
     appVersion: 6.7.1
     created: 2019-06-25T10:10:32.725879543Z
     description: Logging stack with Elasticsearch, fluentd and Kibana
@@ -454,4 +463,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: 2019-10-10T15:01:42.140851311Z
+generated: 2019-10-15T09:48:27.360869483Z
