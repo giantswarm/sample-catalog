@@ -1,5 +1,7 @@
 # Sample app catalog
 
+**Warning:** this documentation is obsolete and staying here for historic and backward compatibility reasons. Please [read here](https://github.com/giantswarm/giantswarm/blob/master/processes/appcatalog.md) for current info about how to setup an app catalog.
+
 Sample app-catalog for internal GS Test Purposes.
 
 Serves a helm repository using GitHub Pages.
