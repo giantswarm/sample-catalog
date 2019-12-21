@@ -3,7 +3,7 @@ entries:
   elastic-logging:
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-05-29T13:10:43.202651622Z
+    created: "2019-05-29T13:10:43.202651622Z"
     description: Logging stack with Elasticsearch, fluentd and Kibana
     digest: 987b2e7fe00a71ef140c308b6be2c11469a94923d1f185380f9262cfae9ea97f
     name: elastic-logging
@@ -12,7 +12,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-05-10T03:10:32.583741429Z
+    created: "2019-05-10T03:10:32.583741429Z"
     description: Logging stack with Elasticsearch, fluentd and Kibana -- testing
     digest: 473e326d2cb8a4fea3c85fd28dc2e9e4fda9e9e9a91d843ded1426eeb3f02368
     name: elastic-logging
@@ -21,7 +21,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-04-29T21:40:26.34758015Z
+    created: "2019-04-29T21:40:26.34758015Z"
     description: Logging stack with Elasticsearch, fluentd and Kibana -- testing
     digest: 9962261e9fba0eab816d82fb21f1852459a58da0e5aca5c1c561ce0ed822b259
     name: elastic-logging
@@ -30,7 +30,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 6.6.1
-    created: 2019-04-28T15:40:33.328440845Z
+    created: "2019-04-28T15:40:33.328440845Z"
     description: Logging stack with Elasticsearch, fluentd and Kibana -- testing
     digest: 9e95ee7be17e7d4e640df41fe80310dbd38c35498de8a4ff33408459a87f4092
     name: elastic-logging
@@ -40,7 +40,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.4.0
-    created: 2019-10-10T07:10:22.479525815Z
+    created: "2019-10-10T07:10:22.479525815Z"
     description: A Helm chart for Elasticsearch -- Testing Open Distro
     digest: ab5cfecdd5d87ffab18f160fd7a9d7590c7ecc5b5d922a3d56804b38c545bd3c
     name: elasticsearch
@@ -49,7 +49,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 7.4.0
-    created: 2019-10-09T07:40:21.448596258Z
+    created: "2019-10-09T07:40:21.448596258Z"
     description: A Helm chart for Elasticsearch -- Testing Open Distro
     digest: b56194d3906574025b84248a8734c39662405346014b2d1271bcbe35b02f100a
     name: elasticsearch
@@ -58,7 +58,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-06-25T10:10:32.720226706Z
+    created: "2019-06-25T10:10:32.720226706Z"
     description: A Helm chart for Elasticsearch -- Testing Open Distro
     digest: e687e5c31149648ceb65881d705fdaed4a12bb3388e4c8ff9653e2fc539f009b
     name: elasticsearch
@@ -67,7 +67,7 @@ entries:
     version: 0.1.8
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-04-29T21:10:33.403862845Z
+    created: "2019-04-29T21:10:33.403862845Z"
     description: A Helm chart for Elasticsearch -- Testing Open Distro
     digest: 2b3dcdd4957062c7d7ef68b2e315193df9894e569ae0f149fb3c75443ccbe561
     name: elasticsearch
@@ -76,7 +76,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: 6.6.1
-    created: 2019-04-28T15:40:33.329063748Z
+    created: "2019-04-28T15:40:33.329063748Z"
     description: A Helm chart for Elasticsearch -- Testing Open Distro
     digest: 533f279a198c7fba31e01cec0bd472eb8ec76f544462335976b97f6db181eb04
     name: elasticsearch
@@ -85,7 +85,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-04-08T22:10:28.211171418Z
+    created: "2019-04-08T22:10:28.211171418Z"
     description: A Helm chart for Elasticsearch -- testing
     digest: 7cf472e9926c872f4837fddb82f22b953cfc479cc9f5465f66a0f3c561cfabaf
     name: elasticsearch
@@ -95,7 +95,7 @@ entries:
   elasticsearch-curator:
   - apiVersion: v1
     appVersion: 5.5.4
-    created: 2019-10-10T15:01:42.141592063Z
+    created: "2019-10-10T15:01:42.141592063Z"
     description: A Helm chart for Elasticsearch Curator
     digest: ff0c8a31c00a6ffacfb0cccd4804e5fe23bf73522300e9283527a82d41f26c05
     home: https://github.com/elastic/curator
@@ -117,7 +117,7 @@ entries:
     version: 2.0.3
   - apiVersion: v1
     appVersion: 5.5.4
-    created: 2019-10-10T06:40:22.089211911Z
+    created: "2019-10-10T06:40:22.089211911Z"
     description: A Helm chart for Elasticsearch Curator
     digest: ca907c2d3d54caf992f800b2ffc20232928ade51d6d9d162fe314e31d71930f0
     home: https://github.com/elastic/curator
@@ -140,7 +140,7 @@ entries:
   elasticsearch-exporter:
   - apiVersion: v1
     appVersion: 1.0.2
-    created: 2019-05-29T11:10:31.320234518Z
+    created: "2019-05-29T11:10:31.320234518Z"
     description: Elasticsearch stats exporter for Prometheus
     digest: c225a1e10c4d1635389fac75a19cda83a44d83c36befbf9f94b150db3786f29c
     name: elasticsearch-exporter
@@ -150,7 +150,7 @@ entries:
   fluentd-elasticsearch:
   - apiVersion: v1
     appVersion: 2.7.0
-    created: 2019-10-10T13:10:23.387849266Z
+    created: "2019-10-10T13:10:23.387849266Z"
     description: A Helm chart for fluentd-elasticsearch -- testing
     digest: 945d05665201e5e530c8785e4a8222ff31c7222fe707961ccaaec3532c77ab3c
     name: fluentd-elasticsearch
@@ -159,7 +159,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 2.7.0
-    created: 2019-10-10T07:10:22.48021007Z
+    created: "2019-10-10T07:10:22.48021007Z"
     description: A Helm chart for fluentd-elasticsearch -- testing
     digest: 4dbe8ddd22ffdfcb611ed8a4cf279d2b35be5bcd98d684884a6c0daaeda7e5ce
     name: fluentd-elasticsearch
@@ -168,7 +168,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.7.0
-    created: 2019-10-09T08:10:34.575210464Z
+    created: "2019-10-09T08:10:34.575210464Z"
     description: A Helm chart for fluentd-elasticsearch -- testing
     digest: 9b1c1d3f8b2f3b28007b8db3099633883e9c8cd65e5510b0e8be303acc1c106a
     name: fluentd-elasticsearch
@@ -177,7 +177,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.7.0
-    created: 2019-10-08T11:22:34.373344566Z
+    created: "2019-10-08T11:22:34.373344566Z"
     description: A Helm chart for fluentd-elasticsearch -- testing
     digest: 22a4b4e9ead3291a084b7f973d202e682a3818537180cf82f7d4d017b2a0a4d8
     name: fluentd-elasticsearch
@@ -186,7 +186,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: 2.5.1
-    created: 2019-06-25T10:10:32.721393786Z
+    created: "2019-06-25T10:10:32.721393786Z"
     description: A Helm chart for fluentd-elasticsearch -- testing
     digest: e28dfe5ab5e7e209e30051ff13dab1a24df3722390d32f15c3ead3ecf33d4a17
     name: fluentd-elasticsearch
@@ -195,7 +195,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 2.5.1
-    created: 2019-04-28T15:40:33.330244652Z
+    created: "2019-04-28T15:40:33.330244652Z"
     description: A Helm chart for fluentd-elasticsearch -- testing
     digest: eb02d25a4bd38b3eff11b307c2f4a0af6cce7691c38e1624a5adf18d9a48d019
     name: fluentd-elasticsearch
@@ -204,7 +204,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 2.5.1
-    created: 2019-04-16T12:40:27.750706156Z
+    created: "2019-04-16T12:40:27.750706156Z"
     description: A Helm chart for fluentd-elasticsearch -- testing
     digest: 4f0454d846dcb825d493fda1ae51902a472979dc848e7130aba50272817e6d50
     name: fluentd-elasticsearch
@@ -214,7 +214,7 @@ entries:
   keycloak-gatekeeper:
   - apiVersion: v1
     appVersion: 4.6.0.Final
-    created: 2019-06-25T10:10:32.722492735Z
+    created: "2019-06-25T10:10:32.722492735Z"
     description: Keycloak gatekeeper
     digest: 00c9a6ed875560c96d150a9fdd157deac14fe7a47d7b42c1435585147b26bf1f
     engine: gotpl
@@ -234,7 +234,7 @@ entries:
     version: 1.1.1-3
   - apiVersion: v1
     appVersion: 4.6.0.Final
-    created: 2019-05-15T13:40:36.658041038Z
+    created: "2019-05-15T13:40:36.658041038Z"
     description: Keycloak gatekeeper
     digest: e3e27865eee1a9411e0ce4c66768f96584ca0c2cad7206c6bda67cdfb0590207
     engine: gotpl
@@ -254,7 +254,7 @@ entries:
     version: 1.1.1-2
   - apiVersion: v1
     appVersion: 4.6.0.Final
-    created: 2019-04-28T15:40:33.330733536Z
+    created: "2019-04-28T15:40:33.330733536Z"
     description: Keycloak gatekeeper
     digest: 63dd41fdb10635317e2887f21f44d507d0e6933c06b018c79386cce43931940a
     engine: gotpl
@@ -275,7 +275,7 @@ entries:
   kibana:
   - apiVersion: v1
     appVersion: 7.4.0
-    created: 2019-10-09T07:40:21.449142974Z
+    created: "2019-10-09T07:40:21.449142974Z"
     description: A Helm chart for Kibana -- testing
     digest: 364f5aecfca75b03cc1eb6f6073eb6fbc2c676f43651efb37efd6387127b4b22
     name: kibana
@@ -284,7 +284,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-04-29T21:10:33.404581862Z
+    created: "2019-04-29T21:10:33.404581862Z"
     description: A Helm chart for Kibana -- testing
     digest: e49344acefb65a23b38f689fcc3462d732302b9b15f2bcde34b1f5e60dce61a1
     name: kibana
@@ -293,7 +293,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 6.6.2
-    created: 2019-04-28T15:40:33.330982588Z
+    created: "2019-04-28T15:40:33.330982588Z"
     description: A Helm chart for Kibana -- testing
     digest: 387e82c1943c290c9704f34c151729d5335b71d7877b09f13cc4aeb4eff0ad69
     name: kibana
@@ -302,7 +302,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-04-16T13:10:27.245057761Z
+    created: "2019-04-16T13:10:27.245057761Z"
     description: A Helm chart for Kibana -- testing
     digest: 13dbd88ad82eb8949e5be1d5bf7bafa1c528d39494f30de44a8312ea8a967d77
     name: kibana
@@ -312,7 +312,7 @@ entries:
   kubernetes-elastic-stack-elastic-logging:
   - apiVersion: v1
     appVersion: 7.4.0
-    created: 2019-10-15T09:48:27.366327298Z
+    created: "2019-10-15T09:48:27.366327298Z"
     description: Logging stack with Elasticsearch, fluentd and Kibana
     digest: df39e86fc04dd3a34ee529058664aa8933e0074242ccd7e89853576563c43f57
     name: kubernetes-elastic-stack-elastic-logging
@@ -321,7 +321,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 6.7.1
-    created: 2019-06-25T10:10:32.725879543Z
+    created: "2019-06-25T10:10:32.725879543Z"
     description: Logging stack with Elasticsearch, fluentd and Kibana
     digest: fbf89f13697a1856244fb6814a93eeec63c03d1d1cd37e1b77cd90d00b04e960
     name: kubernetes-elastic-stack-elastic-logging
@@ -331,7 +331,7 @@ entries:
   kubernetes-test-app-chart:
   - apiVersion: v1
     appVersion: v1.8.0
-    created: 2019-12-21T19:12:20.735006847Z
+    created: "2019-12-21T19:12:20.735006847Z"
     description: A Helm chart for a test app
     digest: e3805440d9a0b07a660c8934cc012d77315651d554e65a3001e2a8806c0fe68f
     name: kubernetes-test-app-chart
@@ -339,8 +339,17 @@ entries:
     - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.7.1.tgz
     version: 0.7.1
   - apiVersion: v1
+    appVersion: v1.8.0
+    created: "2019-12-21T20:19:59.135122446+01:00"
+    description: A Helm chart for a test app
+    digest: 62412fdc5d49d1483057e07a7a75ae1c969c6bc07b5cc1f7a132d7f718206964
+    name: kubernetes-test-app-chart
+    urls:
+    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v1
     appVersion: v1.3.1
-    created: 2019-01-21T16:10:19.270449657Z
+    created: "2019-01-21T16:10:19.270449657Z"
     description: A Helm chart for a test app
     digest: e56695e32b385605f2b3f2c2d0a54f47a79ddd0ff538bd1200167287f6784942
     name: kubernetes-test-app-chart
@@ -349,7 +358,7 @@ entries:
     version: 0.6.8
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2019-01-21T10:40:18.765005127Z
+    created: "2019-01-21T10:40:18.765005127Z"
     description: A Helm chart for a test app
     digest: 68668bb6ed3369fffbada35d84e296f55f13a742b9580fc433f001d482e4cd8e
     name: kubernetes-test-app-chart
@@ -358,7 +367,7 @@ entries:
     version: 0.6.7
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2019-01-14T14:40:20.188676178Z
+    created: "2019-01-14T14:40:20.188676178Z"
     description: A Helm chart for a test app
     digest: ff45cc85f4f79c9deb5c88e9d4dc4e45c47a5b182d1a5d8f172ce1198ffa61f2
     name: kubernetes-test-app-chart
@@ -367,7 +376,7 @@ entries:
     version: 0.6.4
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2019-01-14T13:10:20.928863799Z
+    created: "2019-01-14T13:10:20.928863799Z"
     description: A Helm chart for a test app
     digest: 5502b22fc450abb0d915a7c90e2004a0da4cca2577285ca3ecab80f6005aa4ff
     name: kubernetes-test-app-chart
@@ -376,7 +385,7 @@ entries:
     version: 0.6.3
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2019-01-07T15:40:19.684502979Z
+    created: "2019-01-07T15:40:19.684502979Z"
     description: A Helm chart for a test app
     digest: d1a9bb09169e597a62edaf9bed49600a2cfe9ecb8c46cdb69f1fd35351086737
     name: kubernetes-test-app-chart
@@ -385,7 +394,7 @@ entries:
     version: 0.6.2
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2019-01-07T15:10:18.942432604Z
+    created: "2019-01-07T15:10:18.942432604Z"
     description: A Helm chart for a test app
     digest: 83dda01a1911e69dfc5f1abb00b159df2a22b538a3dc9ae713550acc9121fb13
     name: kubernetes-test-app-chart
@@ -394,7 +403,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2018-12-21T15:40:19.321587764Z
+    created: "2018-12-21T15:40:19.321587764Z"
     description: A Helm chart for a test app
     digest: 2df26f57be2f9e7252dac58ce3d093d5767494333e94c847b8b60b0adc30e0da
     name: kubernetes-test-app-chart
@@ -403,7 +412,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2018-12-03T11:10:20.333088479Z
+    created: "2018-12-03T11:10:20.333088479Z"
     description: A Helm chart for a test app
     digest: 036a019a753c932292430fe13ef9cd57ccfcc7ac41876483f87e471b1ba8fe34
     name: kubernetes-test-app-chart
@@ -412,7 +421,7 @@ entries:
     version: 0.2.18
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2018-11-26T19:06:16.128869285Z
+    created: "2018-11-26T19:06:16.128869285Z"
     description: A Helm chart for a test app
     digest: b93dd9a5d95557fd05c896fe59999ba003700b331083a92ec20b8ad39d0d5812
     name: kubernetes-test-app-chart
@@ -421,7 +430,7 @@ entries:
     version: 0.2.17
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2018-11-26T15:26:50.53945157+01:00
+    created: "2018-11-26T15:26:50.53945157+01:00"
     description: A Helm chart for a test app
     digest: ec1f0f04a82235c98ae2c1e7e3bbb0e01c34d2fe0b342d37b2a10fe1cbb68881
     name: kubernetes-test-app-chart
@@ -430,7 +439,7 @@ entries:
     version: 0.2.16
   - apiVersion: v1
     appVersion: v1.3.1
-    created: 2018-11-26T15:26:50.539235969+01:00
+    created: "2018-11-26T15:26:50.539235969+01:00"
     description: A Helm chart for a test app
     digest: e74427e800a656827fc0cb92367216c95b24d6664583a76eb2fbebadbceb1e19
     name: kubernetes-test-app-chart
@@ -440,7 +449,7 @@ entries:
   prometheus-chart:
   - apiVersion: v1
     appVersion: 2.4.3
-    created: 2019-04-03T13:10:26.373370033Z
+    created: "2019-04-03T13:10:26.373370033Z"
     description: Prometheus is a monitoring system and time series database.
     digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
     engine: gotpl
@@ -460,7 +469,7 @@ entries:
   xss-attempt:
   - apiVersion: v1
     appVersion: 2.4.3
-    created: 2019-04-15T10:00:00Z
+    created: "2019-04-15T10:00:00Z"
     description: This is a little security POC
     digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
     home: https://digi.ninja/blog/svg_xss.php
@@ -472,4 +481,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: 2019-12-21T19:12:20.734013223Z
+generated: "2019-12-21T20:19:59.134653439+01:00"
