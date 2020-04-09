@@ -331,6 +331,16 @@ entries:
   kubernetes-test-app-chart:
   - apiVersion: v1
     appVersion: v1.8.0
+    created: "2020-04-09T09:02:50.775350175Z"
+    description: A Helm chart for a test app
+    digest: 95e629f8eebd80314f0dec3a5bda97f148ffff9de98f39d8b914c4f57b0f48f9
+    home: https://github.com/giantswarm/kubernetes-test-app
+    name: kubernetes-test-app-chart
+    urls:
+    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.8.2.tgz
+    version: 0.8.2
+  - apiVersion: v1
+    appVersion: v1.8.0
     created: "2020-04-09T06:53:26.901308607Z"
     description: A Helm chart for a test app
     digest: cc55a4df8c3083a3bed0679ebd93e96e07cf6b1612633762b20ce8ecb04993cc
@@ -551,4 +561,4 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2020-04-09T09:02:08.549158808Z"
+generated: "2020-04-09T09:02:50.77453554Z"
