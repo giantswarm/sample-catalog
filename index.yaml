@@ -217,7 +217,6 @@ entries:
     created: "2019-06-25T10:10:32.722492735Z"
     description: Keycloak gatekeeper
     digest: 00c9a6ed875560c96d150a9fdd157deac14fe7a47d7b42c1435585147b26bf1f
-    engine: gotpl
     home: https://github.com/keycloak/keycloak-gatekeeper
     icon: https://raw.githubusercontent.com/keycloak/keycloak-misc/master/logo/keycloak_logo_600px.png
     keywords:
@@ -237,7 +236,6 @@ entries:
     created: "2019-05-15T13:40:36.658041038Z"
     description: Keycloak gatekeeper
     digest: e3e27865eee1a9411e0ce4c66768f96584ca0c2cad7206c6bda67cdfb0590207
-    engine: gotpl
     home: https://github.com/keycloak/keycloak-gatekeeper
     icon: https://raw.githubusercontent.com/keycloak/keycloak-misc/master/logo/keycloak_logo_600px.png
     keywords:
@@ -257,7 +255,6 @@ entries:
     created: "2019-04-28T15:40:33.330733536Z"
     description: Keycloak gatekeeper
     digest: 63dd41fdb10635317e2887f21f44d507d0e6933c06b018c79386cce43931940a
-    engine: gotpl
     home: https://github.com/keycloak/keycloak-gatekeeper
     icon: https://raw.githubusercontent.com/keycloak/keycloak-misc/master/logo/keycloak_logo_600px.png
     keywords:
@@ -379,6 +376,16 @@ entries:
     urls:
     - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.8.1-11f4648bd1d5efbb611f6ac895f144da3a91a02e.tgz
     version: 0.8.1-11f4648bd1d5efbb611f6ac895f144da3a91a02e
+  - apiVersion: v1
+    appVersion: v1.8.0
+    created: "2021-03-06T20:51:08.11396473Z"
+    description: A Helm chart for a test app
+    digest: 30b82be90b39650015a65cdf3bfdd1fd9c8d8c291232972300b81d96b40a21cb
+    home: https://github.com/giantswarm/kubernetes-test-app
+    name: kubernetes-test-app-chart
+    urls:
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.8.1-0d92af7bf84bf26402d78eb40fba277d5a756186.tgz
+    version: 0.8.1-0d92af7bf84bf26402d78eb40fba277d5a756186
   - apiVersion: v1
     appVersion: v1.8.0
     created: "2020-04-09T09:06:14.405891451Z"
@@ -542,7 +549,6 @@ entries:
     created: "2019-04-03T13:10:26.373370033Z"
     description: Prometheus is a monitoring system and time series database.
     digest: 24209513143291f9a324ab11da1e12b01a821a11fe342484797a14acf47686fa
-    engine: gotpl
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     maintainers:
@@ -552,7 +558,6 @@ entries:
     sources:
     - https://github.com/prometheus/alertmanager
     - https://github.com/prometheus/prometheus
-    tillerVersion: '>=2.8.0'
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
@@ -567,8 +572,7 @@ entries:
     name: xss-attempt
     sources:
     - https://github.com/digininja/svg_xss
-    tillerVersion: '>=2.8.0'
     urls:
     - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2020-04-09T09:42:38.189221199Z"
+generated: "2021-03-06T20:51:08.113425133Z"
