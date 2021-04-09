@@ -10,7 +10,7 @@ readonly PERSONAL_ACCESS_TOKEN=$2
 readonly APPS_FILE=./APPS
 readonly HELM_URL=https://storage.googleapis.com/kubernetes-helm
 readonly HELM_TARBALL=helm-v2.16.1-linux-amd64.tar.gz
-readonly HELM_REPO_URL=https://giantswarm.github.com/${REPONAME}
+readonly HELM_REPO_URL=https://giantswarm.github.io/${REPONAME}
 
 main() {
     setup_helm_client

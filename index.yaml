@@ -8,7 +8,7 @@ entries:
     digest: 987b2e7fe00a71ef140c308b6be2c11469a94923d1f185380f9262cfae9ea97f
     name: elastic-logging
     urls:
-    - https://giantswarm.github.com/sample-catalog/elastic-logging-0.1.6.tgz
+    - https://giantswarm.github.io/sample-catalog/elastic-logging-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v1
     appVersion: 6.7.1
@@ -17,7 +17,7 @@ entries:
     digest: 473e326d2cb8a4fea3c85fd28dc2e9e4fda9e9e9a91d843ded1426eeb3f02368
     name: elastic-logging
     urls:
-    - https://giantswarm.github.com/sample-catalog/elastic-logging-0.1.5.tgz
+    - https://giantswarm.github.io/sample-catalog/elastic-logging-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v1
     appVersion: 6.7.1
@@ -26,7 +26,7 @@ entries:
     digest: 9962261e9fba0eab816d82fb21f1852459a58da0e5aca5c1c561ce0ed822b259
     name: elastic-logging
     urls:
-    - https://giantswarm.github.com/sample-catalog/elastic-logging-0.1.4.tgz
+    - https://giantswarm.github.io/sample-catalog/elastic-logging-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
     appVersion: 6.6.1
@@ -35,7 +35,7 @@ entries:
     digest: 9e95ee7be17e7d4e640df41fe80310dbd38c35498de8a4ff33408459a87f4092
     name: elastic-logging
     urls:
-    - https://giantswarm.github.com/sample-catalog/elastic-logging-0.1.3.tgz
+    - https://giantswarm.github.io/sample-catalog/elastic-logging-0.1.3.tgz
     version: 0.1.3
   elasticsearch:
   - apiVersion: v1
@@ -45,7 +45,7 @@ entries:
     digest: ab5cfecdd5d87ffab18f160fd7a9d7590c7ecc5b5d922a3d56804b38c545bd3c
     name: elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-0.2.1.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
     appVersion: 7.4.0
@@ -54,7 +54,7 @@ entries:
     digest: b56194d3906574025b84248a8734c39662405346014b2d1271bcbe35b02f100a
     name: elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-0.2.0.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 6.7.1
@@ -63,7 +63,7 @@ entries:
     digest: e687e5c31149648ceb65881d705fdaed4a12bb3388e4c8ff9653e2fc539f009b
     name: elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-0.1.8.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
     appVersion: 6.7.1
@@ -72,7 +72,7 @@ entries:
     digest: 2b3dcdd4957062c7d7ef68b2e315193df9894e569ae0f149fb3c75443ccbe561
     name: elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-0.1.7.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v1
     appVersion: 6.6.1
@@ -81,7 +81,7 @@ entries:
     digest: 533f279a198c7fba31e01cec0bd472eb8ec76f544462335976b97f6db181eb04
     name: elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-0.1.6.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v1
     appVersion: 6.7.1
@@ -90,7 +90,7 @@ entries:
     digest: 7cf472e9926c872f4837fddb82f22b953cfc479cc9f5465f66a0f3c561cfabaf
     name: elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-0.1.2.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-0.1.2.tgz
     version: 0.1.2
   elasticsearch-curator:
   - apiVersion: v1
@@ -113,7 +113,7 @@ entries:
     - https://github.com/kubernetes/charts/elasticsearch-curator
     - https://github.com/pires/docker-elasticsearch-curator
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-curator-2.0.3.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-curator-2.0.3.tgz
     version: 2.0.3
   - apiVersion: v1
     appVersion: 5.5.4
@@ -135,7 +135,7 @@ entries:
     - https://github.com/kubernetes/charts/elasticsearch-curator
     - https://github.com/pires/docker-elasticsearch-curator
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-curator-2.0.2.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-curator-2.0.2.tgz
     version: 2.0.2
   elasticsearch-exporter:
   - apiVersion: v1
@@ -145,7 +145,7 @@ entries:
     digest: c225a1e10c4d1635389fac75a19cda83a44d83c36befbf9f94b150db3786f29c
     name: elasticsearch-exporter
     urls:
-    - https://giantswarm.github.com/sample-catalog/elasticsearch-exporter-0.1.0.tgz
+    - https://giantswarm.github.io/sample-catalog/elasticsearch-exporter-0.1.0.tgz
     version: 0.1.0
   fluentd-elasticsearch:
   - apiVersion: v1
@@ -155,7 +155,7 @@ entries:
     digest: 945d05665201e5e530c8785e4a8222ff31c7222fe707961ccaaec3532c77ab3c
     name: fluentd-elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.2.2.tgz
+    - https://giantswarm.github.io/sample-catalog/fluentd-elasticsearch-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v1
     appVersion: 2.7.0
@@ -164,7 +164,7 @@ entries:
     digest: 4dbe8ddd22ffdfcb611ed8a4cf279d2b35be5bcd98d684884a6c0daaeda7e5ce
     name: fluentd-elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.2.1.tgz
+    - https://giantswarm.github.io/sample-catalog/fluentd-elasticsearch-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.7.0
@@ -173,7 +173,7 @@ entries:
     digest: 9b1c1d3f8b2f3b28007b8db3099633883e9c8cd65e5510b0e8be303acc1c106a
     name: fluentd-elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.2.0.tgz
+    - https://giantswarm.github.io/sample-catalog/fluentd-elasticsearch-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.7.0
@@ -182,7 +182,7 @@ entries:
     digest: 22a4b4e9ead3291a084b7f973d202e682a3818537180cf82f7d4d017b2a0a4d8
     name: fluentd-elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.1.5.tgz
+    - https://giantswarm.github.io/sample-catalog/fluentd-elasticsearch-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v1
     appVersion: 2.5.1
@@ -191,7 +191,7 @@ entries:
     digest: e28dfe5ab5e7e209e30051ff13dab1a24df3722390d32f15c3ead3ecf33d4a17
     name: fluentd-elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.1.4.tgz
+    - https://giantswarm.github.io/sample-catalog/fluentd-elasticsearch-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
     appVersion: 2.5.1
@@ -200,7 +200,7 @@ entries:
     digest: eb02d25a4bd38b3eff11b307c2f4a0af6cce7691c38e1624a5adf18d9a48d019
     name: fluentd-elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.1.3.tgz
+    - https://giantswarm.github.io/sample-catalog/fluentd-elasticsearch-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: 2.5.1
@@ -209,7 +209,7 @@ entries:
     digest: 4f0454d846dcb825d493fda1ae51902a472979dc848e7130aba50272817e6d50
     name: fluentd-elasticsearch
     urls:
-    - https://giantswarm.github.com/sample-catalog/fluentd-elasticsearch-0.1.2.tgz
+    - https://giantswarm.github.io/sample-catalog/fluentd-elasticsearch-0.1.2.tgz
     version: 0.1.2
   keycloak-gatekeeper:
   - apiVersion: v1
@@ -229,7 +229,7 @@ entries:
       name: gabibbo97
     name: keycloak-gatekeeper
     urls:
-    - https://giantswarm.github.com/sample-catalog/keycloak-gatekeeper-1.1.1-3.tgz
+    - https://giantswarm.github.io/sample-catalog/keycloak-gatekeeper-1.1.1-3.tgz
     version: 1.1.1-3
   - apiVersion: v1
     appVersion: 4.6.0.Final
@@ -248,7 +248,7 @@ entries:
       name: gabibbo97
     name: keycloak-gatekeeper
     urls:
-    - https://giantswarm.github.com/sample-catalog/keycloak-gatekeeper-1.1.1-2.tgz
+    - https://giantswarm.github.io/sample-catalog/keycloak-gatekeeper-1.1.1-2.tgz
     version: 1.1.1-2
   - apiVersion: v1
     appVersion: 4.6.0.Final
@@ -267,7 +267,7 @@ entries:
       name: gabibbo97
     name: keycloak-gatekeeper
     urls:
-    - https://giantswarm.github.com/sample-catalog/keycloak-gatekeeper-1.1.1-1.tgz
+    - https://giantswarm.github.io/sample-catalog/keycloak-gatekeeper-1.1.1-1.tgz
     version: 1.1.1-1
   kibana:
   - apiVersion: v1
@@ -277,7 +277,7 @@ entries:
     digest: 364f5aecfca75b03cc1eb6f6073eb6fbc2c676f43651efb37efd6387127b4b22
     name: kibana
     urls:
-    - https://giantswarm.github.com/sample-catalog/kibana-0.2.0.tgz
+    - https://giantswarm.github.io/sample-catalog/kibana-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 6.7.1
@@ -286,7 +286,7 @@ entries:
     digest: e49344acefb65a23b38f689fcc3462d732302b9b15f2bcde34b1f5e60dce61a1
     name: kibana
     urls:
-    - https://giantswarm.github.com/sample-catalog/kibana-0.1.4.tgz
+    - https://giantswarm.github.io/sample-catalog/kibana-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
     appVersion: 6.6.2
@@ -295,7 +295,7 @@ entries:
     digest: 387e82c1943c290c9704f34c151729d5335b71d7877b09f13cc4aeb4eff0ad69
     name: kibana
     urls:
-    - https://giantswarm.github.com/sample-catalog/kibana-0.1.3.tgz
+    - https://giantswarm.github.io/sample-catalog/kibana-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: 6.7.1
@@ -304,7 +304,7 @@ entries:
     digest: 13dbd88ad82eb8949e5be1d5bf7bafa1c528d39494f30de44a8312ea8a967d77
     name: kibana
     urls:
-    - https://giantswarm.github.com/sample-catalog/kibana-0.1.2.tgz
+    - https://giantswarm.github.io/sample-catalog/kibana-0.1.2.tgz
     version: 0.1.2
   kubernetes-elastic-stack-elastic-logging:
   - apiVersion: v1
@@ -314,7 +314,7 @@ entries:
     digest: df39e86fc04dd3a34ee529058664aa8933e0074242ccd7e89853576563c43f57
     name: kubernetes-elastic-stack-elastic-logging
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-elastic-stack-elastic-logging-0.2.0.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-elastic-stack-elastic-logging-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 6.7.1
@@ -323,7 +323,7 @@ entries:
     digest: fbf89f13697a1856244fb6814a93eeec63c03d1d1cd37e1b77cd90d00b04e960
     name: kubernetes-elastic-stack-elastic-logging
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-elastic-stack-elastic-logging-0.1.8.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-elastic-stack-elastic-logging-0.1.8.tgz
     version: 0.1.8
   kubernetes-test-app-chart:
   - apiVersion: v1
@@ -334,7 +334,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.8.2.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.8.2.tgz
     version: 0.8.2
   - apiVersion: v1
     appVersion: v1.8.0
@@ -344,7 +344,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.8.1.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.8.1.tgz
     version: 0.8.1
   - apiVersion: v1
     appVersion: v1.8.0
@@ -354,7 +354,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.8.1-a348a33ecb693a4e5f9c009505a1a00c20fb7208.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.8.1-a348a33ecb693a4e5f9c009505a1a00c20fb7208.tgz
     version: 0.8.1-a348a33ecb693a4e5f9c009505a1a00c20fb7208
   - apiVersion: v1
     appVersion: v1.8.0
@@ -374,7 +374,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.8.1-3221aed39773454269e1a510964cc179b6bc3c1e.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.8.1-3221aed39773454269e1a510964cc179b6bc3c1e.tgz
     version: 0.8.1-3221aed39773454269e1a510964cc179b6bc3c1e
   - apiVersion: v1
     appVersion: v1.8.0
@@ -384,7 +384,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.8.1-11f4648bd1d5efbb611f6ac895f144da3a91a02e.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.8.1-11f4648bd1d5efbb611f6ac895f144da3a91a02e.tgz
     version: 0.8.1-11f4648bd1d5efbb611f6ac895f144da3a91a02e
   - apiVersion: v1
     appVersion: v1.8.0
@@ -404,7 +404,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.8.0.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v1
     appVersion: v1.8.0
@@ -413,7 +413,7 @@ entries:
     digest: e3805440d9a0b07a660c8934cc012d77315651d554e65a3001e2a8806c0fe68f
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.7.1.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.7.1.tgz
     version: 0.7.1
   - apiVersion: v1
     appVersion: v1.8.0
@@ -422,7 +422,7 @@ entries:
     digest: 62412fdc5d49d1483057e07a7a75ae1c969c6bc07b5cc1f7a132d7f718206964
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.7.0.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v1
     appVersion: v1.3.1
@@ -431,7 +431,7 @@ entries:
     digest: e56695e32b385605f2b3f2c2d0a54f47a79ddd0ff538bd1200167287f6784942
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.8.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.6.8.tgz
     version: 0.6.8
   - apiVersion: v1
     appVersion: v1.3.1
@@ -440,7 +440,7 @@ entries:
     digest: 68668bb6ed3369fffbada35d84e296f55f13a742b9580fc433f001d482e4cd8e
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.7.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.6.7.tgz
     version: 0.6.7
   - apiVersion: v1
     appVersion: v1.3.1
@@ -449,7 +449,7 @@ entries:
     digest: ff45cc85f4f79c9deb5c88e9d4dc4e45c47a5b182d1a5d8f172ce1198ffa61f2
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.4.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.6.4.tgz
     version: 0.6.4
   - apiVersion: v1
     appVersion: v1.3.1
@@ -458,7 +458,7 @@ entries:
     digest: 5502b22fc450abb0d915a7c90e2004a0da4cca2577285ca3ecab80f6005aa4ff
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.3.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.6.3.tgz
     version: 0.6.3
   - apiVersion: v1
     appVersion: v1.3.1
@@ -467,7 +467,7 @@ entries:
     digest: d1a9bb09169e597a62edaf9bed49600a2cfe9ecb8c46cdb69f1fd35351086737
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.6.2.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.6.2.tgz
     version: 0.6.2
   - apiVersion: v1
     appVersion: v1.3.1
@@ -476,7 +476,7 @@ entries:
     digest: 83dda01a1911e69dfc5f1abb00b159df2a22b538a3dc9ae713550acc9121fb13
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.5.3.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.5.3.tgz
     version: 0.5.3
   - apiVersion: v1
     appVersion: v1.3.1
@@ -485,7 +485,7 @@ entries:
     digest: 2df26f57be2f9e7252dac58ce3d093d5767494333e94c847b8b60b0adc30e0da
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.3.0.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: v1.3.1
@@ -494,7 +494,7 @@ entries:
     digest: 036a019a753c932292430fe13ef9cd57ccfcc7ac41876483f87e471b1ba8fe34
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.18.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.2.18.tgz
     version: 0.2.18
   - apiVersion: v1
     appVersion: v1.3.1
@@ -503,7 +503,7 @@ entries:
     digest: b93dd9a5d95557fd05c896fe59999ba003700b331083a92ec20b8ad39d0d5812
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.17.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.2.17.tgz
     version: 0.2.17
   - apiVersion: v1
     appVersion: v1.3.1
@@ -512,7 +512,7 @@ entries:
     digest: ec1f0f04a82235c98ae2c1e7e3bbb0e01c34d2fe0b342d37b2a10fe1cbb68881
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.16.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.2.16.tgz
     version: 0.2.16
   - apiVersion: v1
     appVersion: v1.3.1
@@ -521,7 +521,7 @@ entries:
     digest: e74427e800a656827fc0cb92367216c95b24d6664583a76eb2fbebadbceb1e19
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.2.14.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.2.14.tgz
     version: 0.2.14
   - apiVersion: v1
     appVersion: v1.8.0
@@ -531,7 +531,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.1.0-adac8fe1cc725b97db9b2a450010b3cf57225915.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.1.0-adac8fe1cc725b97db9b2a450010b3cf57225915.tgz
     version: 0.1.0-adac8fe1cc725b97db9b2a450010b3cf57225915
   - apiVersion: v1
     appVersion: v1.8.0
@@ -541,7 +541,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.1.0-9134341f07e6ce82c2da0e875e5d9d0dbb28ec60.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.1.0-9134341f07e6ce82c2da0e875e5d9d0dbb28ec60.tgz
     version: 0.1.0-9134341f07e6ce82c2da0e875e5d9d0dbb28ec60
   - apiVersion: v1
     appVersion: v1.8.0
@@ -551,7 +551,7 @@ entries:
     home: https://github.com/giantswarm/kubernetes-test-app
     name: kubernetes-test-app-chart
     urls:
-    - https://giantswarm.github.com/sample-catalog/kubernetes-test-app-chart-0.1.0-75179e651bcda766ddafa131c50e0159e0ff372a.tgz
+    - https://giantswarm.github.io/sample-catalog/kubernetes-test-app-chart-0.1.0-75179e651bcda766ddafa131c50e0159e0ff372a.tgz
     version: 0.1.0-75179e651bcda766ddafa131c50e0159e0ff372a
   prometheus-chart:
   - apiVersion: v1
@@ -569,7 +569,7 @@ entries:
     - https://github.com/prometheus/alertmanager
     - https://github.com/prometheus/prometheus
     urls:
-    - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
+    - https://giantswarm.github.io/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
   xss-attempt:
   - apiVersion: v1
@@ -583,6 +583,6 @@ entries:
     sources:
     - https://github.com/digininja/svg_xss
     urls:
-    - https://giantswarm.github.com/sample-catalog/prometheus-chart-0.0.1.tgz
+    - https://giantswarm.github.io/sample-catalog/prometheus-chart-0.0.1.tgz
     version: 0.0.1
 generated: "2021-03-08T08:24:04.510792287Z"
