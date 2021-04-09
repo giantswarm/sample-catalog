@@ -8,12 +8,12 @@ Serves a helm repository using GitHub Pages.
 
 For further info about helm chart repositories see: https://github.com/helm/helm/blob/master/docs/chart_repository.md.
 
-The app-catalog is hosted at the URL: https://giantswarm.github.com/sample-catalog.
+The app-catalog is hosted at the URL: https://giantswarm.github.io/sample-catalog.
 
 It can be added to your helm repositories like this:
 
 ``` sh
-> helm repo add sample-catalog https://giantswarm.github.com/sample-catalog
+> helm repo add sample-catalog https://giantswarm.github.io/sample-catalog
 "sample-catalog" has been added to your repositories
 ```
 
